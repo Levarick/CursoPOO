@@ -5,4 +5,5 @@
   "python.analysis.extraPaths": [
     "./Python"
   ],
+  "python.pythonPath": "/usr/bin/python3",
 }
