@@ -1,4 +1,5 @@
 <?php
+require_once('Account.php');
 class Car {
   public $id;
   public $license;
@@ -9,7 +10,6 @@ class Car {
     $this->driver = $driver;
   }
   public function printDataCar(){
-    echo "license: $this.license";
-    echo "driver: $this.driver.name";
+    echo "License: $this->license Driver: ".$this->driver->name;
   }
 }
